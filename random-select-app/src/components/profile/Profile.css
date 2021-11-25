@@ -1,0 +1,29 @@
+img {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.dim {
+    font-weight: bold;
+    color: #333;
+}

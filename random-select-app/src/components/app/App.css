@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.app {
+    margin: auto;
+    padding: 15px;
+    border: 3px ridge #555;
+    border-radius: 17px;
+    box-shadow: 0px 0px 3px 3px rgba(70, 69, 69, 0.5);
+    background-color: #eee;
+    width: 600px;
+    height: 500px;
+}
+
+#header {
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: underline;
+}
+
+button {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 124px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #0c6dfd;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
