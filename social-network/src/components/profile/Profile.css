@@ -1,0 +1,35 @@
+.profile-page, .user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-page {
+    margin-top: 70px;
+}
+
+.profile-page h2, .profile-page h4 {
+    font-weight: 600;
+}
+
+.profile-page h2 {
+    font-size: 27px;
+}
+
+.profile-page h4 {
+    margin-bottom: 5px;
+}
+
+.user-profile {
+    margin-top: 17px;
+    border: 3px solid rgb(187, 186, 186);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
+.user-profile img {
+    border: 1px solid gray;
+    margin-bottom: 2px;
+}

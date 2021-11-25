@@ -1,0 +1,23 @@
+.home-page, .home-page div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.home-page {
+    margin-top: 70px;
+}
+
+.home-page h2, .home-page h3 {
+    font-weight: 500;
+}
+
+.home-page h2 {
+    margin-bottom: 30px;
+}
+
+.home-page img {
+    margin-top: 30px;
+}

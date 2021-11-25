@@ -1,0 +1,30 @@
+.friends-page {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.friends-page h2 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.friends-page h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.friends-page h2 a:hover {
+    opacity: 0.8;
+}
+
+.friends-list {
+    margin-bottom: 20px;
+}
+
+.friends-list p {
+    margin: 7px;
+    font-size: larger;
+}
