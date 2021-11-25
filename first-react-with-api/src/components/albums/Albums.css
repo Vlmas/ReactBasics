@@ -1,0 +1,40 @@
+.albums-header, .add-album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albums-header {
+    flex-direction: column;
+}
+
+.albums-header h2 {
+    color: #18273a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #18273a;
+    padding: 0px 7px 0 7px;
+}
+
+.add-album {
+    margin-bottom: 20px;
+}
+
+.add-album input {
+    width: 500px;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 7px;
+    border: 1px solid rgb(110, 107, 107);
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.add-album input::placeholder {
+    color: #18273ab9;
+    font-weight: bolder;
+}
+
+.add-album img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

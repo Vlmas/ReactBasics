@@ -1,0 +1,26 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #18273a;
+    margin-bottom: 5%;
+}
+
+.about-container ul li {
+    text-align: center;
+    margin-top: 10%;
+    border: 2px solid #18273a;
+    border-radius: 12px;
+    box-shadow: 0 0 3px #000;
+    list-style: none;
+    padding: 12px;
+    background-color: #eee;
+}
+
+.about-container ul li p {
+    font-style: italic;
+}
+
+.about-container ul li img {
+    margin-bottom: 7px;
+}
