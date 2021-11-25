@@ -1,0 +1,14 @@
+img {
+    width: 25px;
+    height: 25px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.boxer {
+    border-radius: 7px;
+    background-color: #f5f5f5;
+}
