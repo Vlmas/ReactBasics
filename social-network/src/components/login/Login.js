@@ -8,13 +8,14 @@ function Login({ isAuthed, setIsAuthed }) {
   const [password, setPassword] = useState('');
   const [correctUsername, setCorrectUsername] = useState('Almas');
   const [correctPassword, setCorrectPassword] = useState('qwerty');
+  const [inputAlert, setInputAlert] = useState(false);
 
   const handleLogin = () => {
     if(username === correctUsername && password === correctPassword) {
       setIsAuthed(true);
       navigate('/');
     } else {
-      alert('Incorrect username or password');
+      setInputAlert(true);
     }
   };
 
@@ -47,13 +48,19 @@ function Login({ isAuthed, setIsAuthed }) {
         <div className="input-fields">
           <div>
             <label htmlFor="password-input">Password</label>
-            <input type="password" name="password-input" id="password-input" onChange={handleInput} />
+            <input type="password" name="password-input" id="password-input" value={password} onChange={handleInput} />
           </div>
           <p>The correct password is: qwerty</p>
         </div>
       </div>
 
       <button onClick={handleLogin}>Submit</button>
+
+      {inputAlert && (
+        <div className="input-alert">
+          <h4>Incorrect username or password. Please, try again</h4>
+        </div>
+      )}
     </div>
   );
 }
