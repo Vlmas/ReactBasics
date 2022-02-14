@@ -1,0 +1,76 @@
+.users-table {
+    overflow-x: scroll;
+}
+
+.table, .table th, .table td {
+    border: 0.15rem solid rgb(100, 100, 100);
+    border-collapse: collapse;
+}
+
+.table {
+    width: 90rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 0.5rem #888888;
+    margin-bottom: 1.5rem;
+}
+
+.table th {
+    font-weight: 600;
+    font-size: 1.7rem;
+    height: 3rem;
+    background-color:rebeccapurple;
+    color: #fff;
+    border: 0.15rem solid #000;
+}
+
+.table td {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 3.5rem;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #dfdddd;
+}
+
+.del-img {
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.del-img:hover {
+    opacity: 0.8;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination-buttons p {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+}
+
+.pagination-buttons button {
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(8, 158, 88);
+}
+
+.pagination-buttons button:hover {
+    opacity: 0.8;
+}
+
+.user-nav {
+    cursor: pointer;
+}
+
+.user-nav:hover {
+    opacity: 0.6;
+}
